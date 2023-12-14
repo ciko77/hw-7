@@ -6,14 +6,18 @@
 /* header */
 header{
     background-color: #372D23;
-    max-width: inherit;
-    width: inherit;
-    height: 136px;
     display: flex;
     align-items: center;
     justify-content:space-around;
     padding: 32px, 80px, 32px, 80px;
-    transform: translateX();
+    position: fixed;
+    max-width: inherit;
+    width: inherit;
+    height: 136px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    
 }
 
 .logo{
@@ -38,12 +42,14 @@ display: flex;
 .active{
     color: #ED6C30;
 }
+
 ul{
     display: flex;
-    column-gap: 50px;
+    column-gap: 48px;
     display: flex; 
     align-items: center; 
 }
+
 .bag{
     width: 40px;
     height: 40px;
@@ -55,7 +61,7 @@ ul{
 
 .section1{
     height: 640px;
-    position: relative;
+    /* position: relative; */
 }
 img{
     width: 100%;
@@ -91,4 +97,13 @@ font-weight: 700;
 line-height: 28px; /* 140% */
 background-color: transparent;
 }
-
+/* section2 */
+.section2{
+display: flex;
+justify-content:center;
+margin-block: 80px;
+column-gap: 40px;
+}
+.card{
+    width: 400px;
+}
